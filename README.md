@@ -69,14 +69,15 @@ threshold함수는 특정 임계값보다 작으면 0, 크면 최대값으로 �
 
 **두 차선 인식**
 
-![image](https://user-images.githubusercontent.com/42567320/222920179-8d1fd018-f6de-40d7-8ed8-bc6d102dc0dc.png){: width="50%" height="50%}
-![image](https://user-images.githubusercontent.com/42567320/222920186-e71869f7-5546-4408-87e6-26f11c9010f2.png){: width="50%" height="50%}
+![image](https://user-images.githubusercontent.com/42567320/222920179-8d1fd018-f6de-40d7-8ed8-bc6d102dc0dc.png)
+
+![image](https://user-images.githubusercontent.com/42567320/222920186-e71869f7-5546-4408-87e6-26f11c9010f2.png)
 
 **한 차선 예측**
 
-![image](https://user-images.githubusercontent.com/42567320/222920191-02160417-a8f9-4013-ae20-73c9e1659537.png){: width="50%" height="50%}
+![image](https://user-images.githubusercontent.com/42567320/222920191-02160417-a8f9-4013-ae20-73c9e1659537.png)
 
-![image](https://user-images.githubusercontent.com/42567320/222920193-40290956-0cb6-4325-80ca-05738f9f6356.png){: width="50%" height="50%}
+![image](https://user-images.githubusercontent.com/42567320/222920193-40290956-0cb6-4325-80ca-05738f9f6356.png)
 
 **두 차선 예측**
 
