@@ -69,19 +69,19 @@ threshold함수는 특정 임계값보다 작으면 0, 크면 최대값으로 �
 
 **두 차선 인식**
 
-![good_plane.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/20cc311b-b7b7-4b2e-bbf9-9a4515d985bb/good_plane.png)
+![image](https://user-images.githubusercontent.com/42567320/222920179-8d1fd018-f6de-40d7-8ed8-bc6d102dc0dc.png)
 
-![good_plane2.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/705950ca-facc-40e7-9a29-8389bd15e8ba/good_plane2.png)
+![image](https://user-images.githubusercontent.com/42567320/222920186-e71869f7-5546-4408-87e6-26f11c9010f2.png)
 
 **한 차선 예측**
 
-![good_palne_one_missed.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ef660e6a-1117-4ff5-a2c8-865a87306fc1/good_palne_one_missed.png)
+![image](https://user-images.githubusercontent.com/42567320/222920191-02160417-a8f9-4013-ae20-73c9e1659537.png)
 
-![good_curve_one_missed.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a1037b3a-aeae-4dbc-b7c5-b51b2eb93931/good_curve_one_missed.png)
+![image](https://user-images.githubusercontent.com/42567320/222920193-40290956-0cb6-4325-80ca-05738f9f6356.png)
 
 **두 차선 예측**
 
-![good_curve_two_missed.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4f75c67b-c04e-478b-aa22-bb19640ec560/good_curve_two_missed.png)
+![image](https://user-images.githubusercontent.com/42567320/222920198-25491e5d-bc1f-47a6-ae5c-a6efdd77b11e.png)
 
 ### **Bad detection**
 
@@ -89,16 +89,16 @@ threshold함수는 특정 임계값보다 작으면 0, 크면 최대값으로 �
 
 없는 차선이 아닌 보이지 않는 차선임으로 화면밖에 표시 되야 좋은 예측
 
-![bad_curve_one_missed.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/051829b5-ae67-4ad3-8dce-aa1121eb68c2/bad_curve_one_missed.png)
+![image](https://user-images.githubusercontent.com/42567320/222920207-c1e18b4d-1ce8-4a41-b00e-3881fffa4626.png)
 
-![bad_curve_one_missed2.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c77555bf-fa33-4c4d-9e63-97df1d1a2b6e/bad_curve_one_missed2.png)
+![image](https://user-images.githubusercontent.com/42567320/222920214-a2f83d4a-926c-425d-ac7f-71fc56164d5e.png)
 
 없는 차선이 아닌 보이지 않는 차선임으로 화면밖에 표시 되야 좋은 예측
 
 **완전 틀린 예측**
 왼쪽차선은 핑크색 오른쪽차선은 민트색으로 인식되야하나 왼쪽차선이 오른쪽 차선으로 인식 된 상황
 
-![wrong.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/58742f0e-b034-4159-8bda-b8e6726dc739/wrong.png)
+![image](https://user-images.githubusercontent.com/42567320/222920221-09c217e1-d8c3-427e-aab0-99de4ee487cc.png)
 
 ### **결과**
 
