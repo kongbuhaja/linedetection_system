@@ -60,3 +60,57 @@ threshold함수는 특정 임계값보다 작으면 0, 크면 최대값으로 �
 2번 경우 차선추정
 이전 차선정보를 그대로 현재 차선의 위치로 가정한다.
 → 이전 차선들의 변화량을 통해 다음 차선위치를 예측해야 할 것 같지만 마땅히 알고리즘이 떠오르지 않았다.
+
+# 프로젝트 결과
+
+## 최종 결과
+
+### **Good detection**
+
+**두 차선 인식**
+
+![good_plane.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/20cc311b-b7b7-4b2e-bbf9-9a4515d985bb/good_plane.png)
+
+![good_plane2.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/705950ca-facc-40e7-9a29-8389bd15e8ba/good_plane2.png)
+
+**한 차선 예측**
+
+![good_palne_one_missed.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ef660e6a-1117-4ff5-a2c8-865a87306fc1/good_palne_one_missed.png)
+
+![good_curve_one_missed.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a1037b3a-aeae-4dbc-b7c5-b51b2eb93931/good_curve_one_missed.png)
+
+**두 차선 예측**
+
+![good_curve_two_missed.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4f75c67b-c04e-478b-aa22-bb19640ec560/good_curve_two_missed.png)
+
+### **Bad detection**
+
+**한 차선 예측**
+
+없는 차선이 아닌 보이지 않는 차선임으로 화면밖에 표시 되야 좋은 예측
+
+![bad_curve_one_missed.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/051829b5-ae67-4ad3-8dce-aa1121eb68c2/bad_curve_one_missed.png)
+
+![bad_curve_one_missed2.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c77555bf-fa33-4c4d-9e63-97df1d1a2b6e/bad_curve_one_missed2.png)
+
+없는 차선이 아닌 보이지 않는 차선임으로 화면밖에 표시 되야 좋은 예측
+
+**완전 틀린 예측**
+왼쪽차선은 핑크색 오른쪽차선은 민트색으로 인식되야하나 왼쪽차선이 오른쪽 차선으로 인식 된 상황
+
+![wrong.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/58742f0e-b034-4159-8bda-b8e6726dc739/wrong.png)
+
+### **결과**
+
+target: 30 frame마다 예측 위치를 csv파일로 저장
+
+음수의 좌표는 0으로 변환, 640이 넘는 좌표는 640으로 변환 후 비교
+정답 csv 파일과 대조했을때 91.66%의 정확도를 가진다.
+
+## 협업 과정
+
+- 슬랙 -  진행 상황 공유
+- zoom - 화면공유 (코드 리뷰, 코드 컨벤션)
+- github - 코드 관리
+- 회의 - 서로 항상 존중해주면서 밝고 재밌는 분위기에서 프로젝트를 진행하였습니다.
+- 코드 리뷰 - 왜 이렇게 코드를 작성하였는지 질문하고 의견을 제시하였습니다.
